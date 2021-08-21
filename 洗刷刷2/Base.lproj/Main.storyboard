@@ -25,7 +25,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="one"/>
                                 <connections>
-                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gWV-xD-Bi0"/>
+                                    <action selector="oneChosen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RnJ-gx-fEu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dej-2A-Aaf">
@@ -33,7 +33,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="two"/>
                                 <connections>
-                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YD6-qV-4NB"/>
+                                    <action selector="twoChosen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M3a-1b-Kmm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="van-mY-1HH">
@@ -41,7 +41,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="three"/>
                                 <connections>
-                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MLd-tb-08Q"/>
+                                    <action selector="threeChosen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MHG-3H-vjr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uri-XQ-KHM">
@@ -49,7 +49,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="four"/>
                                 <connections>
-                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6NX-Wd-a8C"/>
+                                    <action selector="fourChosen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="laO-ys-VyV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uy1-UJ-ozy">
@@ -57,14 +57,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="five"/>
                                 <connections>
-                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dHl-ra-1WH"/>
+                                    <action selector="fiveChosen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L8H-Ht-y52"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="four" translatesAutoresizingMaskIntoConstraints="NO" id="SHw-a1-tdZ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SHw-a1-tdZ">
                                 <rect key="frame" x="162" y="109" width="218" height="197"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="three2" translatesAutoresizingMaskIntoConstraints="NO" id="vsg-Mh-1Y6">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vsg-Mh-1Y6">
                                 <rect key="frame" x="570" y="115" width="218" height="197"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -79,13 +79,6 @@
                                     <action selector="playAgain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bU6-pp-VXH"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kon-8o-sND">
-                                <rect key="frame" x="186" y="307" width="156" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oof-6u-Ikz">
                                 <rect key="frame" x="413" y="49" width="121" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -93,8 +86,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J88-xS-tou">
-                                <rect key="frame" x="608" y="307" width="167" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kon-8o-sND">
+                                <rect key="frame" x="247" y="307" width="337" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -109,10 +102,10 @@
                         <outlet property="fourButton" destination="Uri-XQ-KHM" id="vj4-yI-N3u"/>
                         <outlet property="oneButton" destination="wkl-Lq-qf2" id="yjv-Rx-2Oo"/>
                         <outlet property="pcImageView" destination="vsg-Mh-1Y6" id="PlJ-v7-r9E"/>
-                        <outlet property="pcLabel" destination="J88-xS-tou" id="m2t-Fj-D63"/>
+                        <outlet property="playAgainButton" destination="ieX-6O-oxy" id="xTy-qq-qKs"/>
                         <outlet property="playerImageView" destination="SHw-a1-tdZ" id="aP4-q7-wyn"/>
-                        <outlet property="playerLabel" destination="kon-8o-sND" id="HUY-LO-DlM"/>
                         <outlet property="scoreLabel" destination="Oof-6u-Ikz" id="LnY-QJ-Rfn"/>
+                        <outlet property="statusLabel" destination="kon-8o-sND" id="HUY-LO-DlM"/>
                         <outlet property="threeButton" destination="van-mY-1HH" id="5fD-A1-Qfd"/>
                         <outlet property="twoButton" destination="Dej-2A-Aaf" id="4zJ-f2-abJ"/>
                     </connections>
@@ -128,7 +121,6 @@
         <image name="four" width="512" height="512"/>
         <image name="one" width="512" height="512"/>
         <image name="three" width="512" height="512"/>
-        <image name="three2" width="512" height="512"/>
         <image name="two" width="512" height="512"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
